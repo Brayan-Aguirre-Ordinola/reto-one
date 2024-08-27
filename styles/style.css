@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --color-primario: #0A3871;
+    --color-secundario: #F3F5FC;
+    --color-terciario: #FFFFFF;
+    --color-cuaternario: #D8DFE8;
+
+    --fuente-Inter:"Inter", system-ui;
+}
+
+body{
+    background: var(--color-secundario);
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 30px;
+    padding: 0px;
+}
+
+.logo__img{
+    margin:1%;
+}
+
+.text__tarea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+textarea{
+    width: 750px;
+    height: 425px;
+    border:none;
+    outline:none;
+    background-color:var(--color-secundario);
+    resize: none;
+    padding: 100px 0px 0px 0px;
+
+    font-family: var(--fuente-Inter);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    color:var(--color-primario)
+}
+
+.buttons__input__text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.after__encrypt{
+    height: 640px;
+    margin: 40px;
+    border-radius: 32px;
+    background-color: var(--color-terciario);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.after__encrypt__text{
+    width: 375px;
+    height: 450px;
+    padding: 20px;
+
+    font-family: var(--fuente-Inter);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+}
+
+.buttons__input__text{
+    width: 680px;
+    top: 885px;
+    left: 240px;
+    gap: 24px;
+    opacity: 0px;
+    display: flex;
+}
+
+.encrypt__text{
+    width: 350px;
+    height: 65px;
+    gap: 8px;
+    border-radius: 24px; 
+    border-style: solid;
+
+    border-color: var(--color-primario);
+    background-color: var(--color-primario);
+    color: var(--color-terciario);
+    margin:2.5px;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: center;
+
+}
+
+.desencrypt__text{
+    width: 350px;
+    height: 65px;
+    gap: 8px;
+    border-radius: 24px; 
+    border-style: solid;
+
+    border-color: var(--color-primario);
+    background-color: var(--color-cuaternario);
+    color: var(--color-primario);
+    margin:2.5px;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: center;
+}
+
+.copy__text{
+    width: 350px;
+    height: 65px;
+    gap: 8px;
+    border-radius: 24px;
+    border-style: solid;
+
+    border-color: var(--color-primario);
+    background-color: var(--color-terciario);
+    color: var(--color-primario);
+    margin:2.5px;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: center;
+}
